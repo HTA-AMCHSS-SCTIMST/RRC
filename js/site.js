@@ -24,10 +24,11 @@
         <img class="emblem" src="assets/sctimst-logo.jpg" alt="SCTIMST, Trivandrum">
         <div class="brand-text">
           <p class="hi">अच्युत मेनोन स्वास्थ्य विज्ञान अध्ययन केंद्र</p>
-          <h1>HEALTH TECHNOLOGY ASSESSMENT RESOURCE CENTRE</h1>
+          <h1>RRC-HTA</h1>
+          <p>Regional Resource Centre for Health Technology Assessment</p>
           <p>Achutha Menon Centre for Health Science Studies (AMCHSS)</p>
           <p>Sree Chitra Tirunal Institute for Medical Sciences &amp; Technology, Trivandrum</p>
-          <p>An Institution of National Importance, Department of Science &amp; Technology, Government of India</p>
+          <p>A Resource Centre under HTAIn, Department of Health Research, MoHFW, Government of India</p>
         </div>
       </div>
       <img class="badge" src="assets/hta-badge.svg" alt="HTAIn AMCHSS badge">
@@ -53,15 +54,16 @@
           <div class="drop">
             <a href="what-we-do.html">Overview</a>
             <a href="process.html">HTA Process</a>
-            <a href="studies.html">Studies</a>
+            <a href="studies.html">Studies &amp; Reports</a>
             <a href="publications.html">Publications</a>
+            <a href="models.html">Models &amp; Tools</a>
+            <a href="collaborations.html">Collaborations</a>
             <a href="capacity.html">Capacity Building</a>
             <a href="stakeholders.html">For Stakeholders</a>
           </div>
         </li>
         <li><a data-nav="events" href="events.html">Events</a></li>
         <li><a data-nav="resources" href="resources.html">Resources</a></li>
-        <li><a data-nav="faq" href="faq.html">FAQ</a></li>
         <li><a data-nav="contact" href="contact.html">Contact Us</a></li>
         <li><a href="https://htain.dhr.gov.in/" target="_blank" rel="noopener">Topic Submission Portal</a></li>
       </ul>
@@ -72,9 +74,9 @@
   <footer class="footer">
     <div class="wrap foot-grid">
       <div>
-        <h4>HTA Resource Centre, AMCHSS</h4>
+        <h4>RRC-HTA, AMCHSS</h4>
         <p>Sree Chitra Tirunal Institute for Medical Sciences &amp; Technology<br>
-        Thiruvananthapuram – 695 011, Kerala, India</p>
+        Medical College P.O., Thiruvananthapuram – 695 011, Kerala, India</p>
         <p>Email: <a href="mailto:amchss.sctimst@gmail.com">amchss.sctimst@gmail.com</a><br>
         Phone: +91 471 252 4140 / 4230</p>
       </div>
@@ -85,7 +87,7 @@
         <p><a href="https://www.sctimst.ac.in/About%20SCTIMST/Organisation/AMCHSS/" target="_blank" rel="noopener">AMCHSS at SCTIMST</a></p>
         <p><a href="https://dhr.gov.in/" target="_blank" rel="noopener">Department of Health Research</a></p>
         <p><a href="https://dst.gov.in/" target="_blank" rel="noopener">Department of Science &amp; Technology</a></p>
-        <p><a href="faq.html">FAQ</a> · <a href="contact.html">Contact</a></p>
+        <p><a href="contact.html">Contact</a></p>
       </div>
       <div>
         <h4>Social Connect</h4>
@@ -93,11 +95,11 @@
           <a href="https://www.sctimst.ac.in/" target="_blank" rel="noopener" aria-label="Website">W</a>
           <a href="mailto:amchss.sctimst@gmail.com" aria-label="Email">@</a>
         </div>
-        <p style="margin-top:16px;font-size:13px">Regional Resource Centre of Health Technology Assessment in India (HTAIn), coordinating with the Government of Kerala.</p>
+        <p style="margin-top:16px;font-size:13px">This site presents RRC-HTA work. It is not an official HTAIn or DHR portal. National guidance remains at htain.dhr.gov.in.</p>
       </div>
     </div>
     <div class="copy">
-      © <span id="yr"></span> SCTIMST / AMCHSS. Layout inspired by the national HTAIn portal (DHR). For local institutional use.
+      © <span id="yr"></span> RRC-HTA, AMCHSS, SCTIMST. Layout modelled on the national HTAIn portal.
     </div>
   </footer>`;
 
