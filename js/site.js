@@ -21,10 +21,10 @@
   <header class="brand">
     <div class="brand-inner">
       <div class="brand-left">
-        <img class="emblem" src="assets/sctimst-logo.jpg" alt="SCTIMST, Trivandrum">
+        <img class="emblem" src="assets/sctimst-logo.svg" alt="SCTIMST, Trivandrum">
         <div class="brand-text">
           <p class="hi">अच्युत मेनोन स्वास्थ्य विज्ञान अध्ययन केंद्र</p>
-          <h1>RRC-HTA</h1>
+          <h1>RRC-HTA-AMCHSS</h1>
           <p>Regional Resource Centre for Health Technology Assessment</p>
           <p>Achutha Menon Centre for Health Science Studies (AMCHSS)</p>
           <p>Sree Chitra Tirunal Institute for Medical Sciences &amp; Technology, Trivandrum</p>
@@ -64,6 +64,7 @@
         </li>
         <li><a data-nav="events" href="events.html">Events</a></li>
         <li><a data-nav="resources" href="resources.html">Resources</a></li>
+        <li><a data-nav="gallery" href="gallery.html">Gallery</a></li>
         <li><a data-nav="contact" href="contact.html">Contact Us</a></li>
         <li><a href="https://htain.dhr.gov.in/" target="_blank" rel="noopener">Topic Submission Portal</a></li>
       </ul>
@@ -77,8 +78,8 @@
         <h4>RRC-HTA, AMCHSS</h4>
         <p>Sree Chitra Tirunal Institute for Medical Sciences &amp; Technology<br>
         Medical College P.O., Thiruvananthapuram – 695 011, Kerala, India</p>
-        <p>Email: <a href="mailto:amchss.sctimst@gmail.com">amchss.sctimst@gmail.com</a><br>
-        Phone: +91 471 252 4140 / 4230</p>
+        <p>Email: <a href="mailto:hta.sctimst@gmail.com">hta.sctimst@gmail.com</a><br>
+        Phone: 0471 252 4140 / 4230</p>
       </div>
       <div>
         <h4>Useful Links</h4>
@@ -91,15 +92,25 @@
       </div>
       <div>
         <h4>Social Connect</h4>
-        <div class="social">
-          <a href="https://www.sctimst.ac.in/" target="_blank" rel="noopener" aria-label="Website">W</a>
-          <a href="mailto:amchss.sctimst@gmail.com" aria-label="Email">@</a>
+        <div class="social" style="display: flex; gap: 10px; align-items: center;">
+          <!-- Twitter / X -->
+          <a href="https://twitter.com/SCTIMST_Kerala" target="_blank" rel="noopener" aria-label="Twitter / X" style="display: inline-flex; align-items: center; justify-content: center;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/company/amchss-sctimst/?originalSubdomain=in" target="_blank" rel="noopener" aria-label="LinkedIn" style="display: inline-flex; align-items: center; justify-content: center;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+            </svg>
+          </a>
         </div>
-        <p style="margin-top:16px;font-size:13px">This site presents RRC-HTA work. It is not an official HTAIn or DHR portal. National guidance remains at htain.dhr.gov.in.</p>
+        <p style="margin-top:16px;font-size:13px">This site presents RRC-HTA-AMCHSS work. National guidance remains at <a href="https://htain.dhr.gov.in/" target="_blank" rel="noopener">HTAIn, DHR</a>.</p>
       </div>
     </div>
     <div class="copy">
-      © <span id="yr"></span> RRC-HTA, AMCHSS, SCTIMST. Layout modelled on the national HTAIn portal.
+      © <span id="yr"></span> RRC-HTA-AMCHSS, SCTIMST.
     </div>
   </footer>`;
 
@@ -164,7 +175,7 @@
       const body = encodeURIComponent(
         `Name: ${fd.get("name")}\nEmail: ${fd.get("email")}\nOrganisation: ${fd.get("org")}\n\n${fd.get("message")}`
       );
-      window.location.href = `mailto:amchss.sctimst@gmail.com?subject=${encodeURIComponent("HTA Resource Centre enquiry")}&body=${body}`;
+      window.location.href = `mailto:hta.sctimst@gmail.com?subject=${encodeURIComponent("HTA Resource Centre enquiry")}&body=${body}`;
     });
   }
 })();

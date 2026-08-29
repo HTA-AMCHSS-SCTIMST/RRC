@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery | RRC-HTA</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .gallery-block {
+      margin: 40px 0;
+    }
+    .gallery-block h2 {
+      font-size: 19px;
+      font-weight: 700;
+      text-align: center;
+      color: #111;
+      margin-bottom: 20px;
+      line-height: 1.4;
+    }
+    .photo-grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    .photo-center-single {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .photo-card {
+      border: 4px solid #333;
+      background: #000;
+      overflow: hidden;
+      border-radius: 2px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      scroll-margin-top: 90px;
+    }
+    .photo-card a {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    .photo-card img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.25s ease;
+    }
+    .photo-card img:hover {
+      transform: scale(1.02);
+    }
+    @media (max-width: 850px) {
+      .photo-grid-3 {
+        grid-template-columns: 1fr;
+      }
+      .photo-card img {
+        height: 220px;
+      }
+    }
+  </style>
+</head>
+<body data-page="gallery">
+  <div class="page-head">
+    <div class="wrap">
+      <p class="crumb"><a href="index.html">Home</a> / Gallery</p>
+      <h1>Photographs</h1>
+    </div>
+  </div>
+
+  <main id="main" class="section">
+    <div class="wrap">
+      <!-- 1: HTA Unit Inauguration -->
+      <section class="gallery-block">
+        <h2>1: Shri. Dr. Harsh Vardhan, Minister of Health and Family Welfare, inaugurating the HTA unit at SCTIMST in presence of Shri. Kadakampally Surendran, Minister for Co-Operation, Tourism, and Devaswom</h2>
+        <div class="photo-center-single">
+          <div class="photo-card" id="photo-inauguration" style="max-width: 420px; width: 100%;">
+            <a href="assets/gallery/unnamed-3.jpg" target="_blank" rel="noopener">
+              <img src="assets/gallery/unnamed-3.jpg" alt="Inauguration of HTA unit at SCTIMST">
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2: ARISE 2025 -->
+      <section class="gallery-block">
+        <h2>2: ARISE Gold Medal Winner 2025</h2>
+        <div class="photo-center-single">
+          <div class="photo-card" id="photo-arise-winner" style="max-width: 360px; width: 100%;">
+            <a href="assets/gallery/arise.jpg" target="_blank" rel="noopener">
+              <img src="assets/gallery/arise.jpg" alt="RRC-HTA receiving ARISE Gold Medal Award 2025">
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3: ISHTA 2025 -->
+      <section class="gallery-block">
+        <h2>3: International Symposium on Health Technology Assessment (ISHTA) 2025</h2>
+        <div class="photo-center-single">
+          <div class="photo-card" id="photo-ishta-2025" style="max-width: 480px; width: 100%;">
+            <a href="assets/gallery/ishta2025_rrcteam_keraladelegation.jpg" target="_blank" rel="noopener">
+              <img src="assets/gallery/ishta2025_rrcteam_keraladelegation.jpg" alt="ISHTA 2025 RRC Team and Kerala Delegation">
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4: ISHTA 2023 -->
+      <section class="gallery-block">
+        <h2>4: International Symposium on Health Technology Assessment (ISHTA) 2023: Vice President Jagdeep Dhankhar and Health Minister Mansukh Mandaviya visiting Nayanamrutham pavilion, RRC-HTA, SCTIMST</h2>
+        <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+          <div class="photo-card" id="photo-ishta-vp" style="flex: 1 1 300px; max-width: 400px;">
+            <a href="assets/gallery/ISHTA_VicePresident.jpg" target="_blank" rel="noopener">
+              <img src="assets/gallery/ISHTA_VicePresident.jpg" alt="Vice President visiting Nayanamrutham pavilion at ISHTA 2023">
+            </a>
+          </div>
+          <div class="photo-card" id="photo-ishta-pavilion" style="flex: 1 1 300px; max-width: 400px;">
+            <a href="assets/gallery/Picture5.jpg" target="_blank" rel="noopener">
+              <img src="assets/gallery/Picture5.jpg" alt="Nayanamrutham pavilion display at ISHTA 2023">
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5: State Consultative Meeting 2026 -->
+      <section class="gallery-block">
+        <h2>5: State Consultative Meeting for Health Technology Assessment in Kerala (31st January 2026)</h2>
+        <div class="photo-grid-3">
+          <div class="photo-card" id="photo-consultative-2026-felicitation">
+            <a href="assets/gallery/Vinay%20Goel%20IAS%20felicitating%20state%20consultative.jpg" target="_blank" rel="noopener">
+              <img src="assets/gallery/Vinay%20Goel%20IAS%20felicitating%20state%20consultative.jpg" alt="Dr. Vinay Goel IAS felicitating state consultative meeting">
+            </a>
+          </div>
+          <div class="photo-card" id="photo-consultative-2026-participants">
+            <a href="assets/gallery/onsultative%20meeting.%20.jpg" target="_blank" rel="noopener">
+              <img src="assets/gallery/onsultative%20meeting.%20.jpg" alt="Participants of consultative meeting">
+            </a>
+          </div>
+          <div class="photo-card" id="photo-consultative-2026-inaugural">
+            <a href="assets/gallery/figure-5.jpg" target="_blank" rel="noopener">
+              <img src="assets/gallery/figure-5.jpg" alt="Inaugural session of consultative workshop">
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6: State Consultative Meeting 2025 -->
+      <section class="gallery-block">
+        <h2>6: State Consultative Meeting for Health Technology Assessment in Kerala (25th September 2025)</h2>
+        <div class="photo-grid-3">
+          <div class="photo-card" id="photo-consultative-2025-felicitation">
+            <a href="assets/gallery/consultative workshop.jpg" target="_blank" rel="noopener">
+              <img src="assets/gallery/consultative workshop.jpg" alt="State consultative workshop">
+            </a>
+          </div>
+          <div class="photo-card" id="photo-consultative-2025-participants">
+            <a href="assets/gallery/onsultative%20meeting.%20.jpg" target="_blank" rel="noopener">
+              <img src="assets/gallery/onsultative%20meeting.%20.jpg" alt="Participants of consultative meeting">
+            </a>
+          </div>
+          <div class="photo-card" id="photo-consultative-2025-inaugural">
+            <a href="assets/gallery/figure-5.jpg" target="_blank" rel="noopener">
+              <img src="assets/gallery/figure-5.jpg" alt="Inaugural session of consultative workshop">
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7: Regional Training Workshops -->
+      <section class="gallery-block">
+        <h2>7: Regional Training Workshops &amp; Capacity Building</h2>
+        <div class="photo-grid-3">
+          <div class="photo-card" id="photo-workshop-bhopal">
+            <a href="assets/gallery/%20%20Participants%20at%20R%20for%20HTA%20workshop%20at%20AIIMS%20Bhopal.jpg" target="_blank" rel="noopener">
+              <img src="assets/gallery/%20%20Participants%20at%20R%20for%20HTA%20workshop%20at%20AIIMS%20Bhopal.jpg" alt="Participants at R for HTA workshop at AIIMS Bhopal">
+            </a>
+          </div>
+          <div class="photo-card" id="photo-workshop-jipmer">
+            <a href="assets/gallery/figure-8.jpg" target="_blank" rel="noopener">
+              <img src="assets/gallery/figure-8.jpg" alt="Participants; 4th Regional Workshop on Advanced Health Economic Evaluation">
+            </a>
+          </div>
+          <div class="photo-card" id="photo-workshop-national">
+            <a href="assets/gallery/figure-9.jpg" target="_blank" rel="noopener">
+              <img src="assets/gallery/figure-9.jpg" alt="Participants at R for HTA workshop">
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 8: Conclaves, Talks & Awards -->
+      <section class="gallery-block">
+        <h2>8: Conclaves, Talks &amp; Awards</h2>
+        <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+          <div class="photo-card" id="photo-adopt-2025" style="flex: 1 1 300px; max-width: 400px;">
+            <a href="assets/gallery/figure-6.jpg" target="_blank" rel="noopener">
+              <img src="assets/gallery/figure-6.jpg" alt="RRC Team Members with State Representatives at ADOPT 2025">
+            </a>
+          </div>
+          <div class="photo-card" id="photo-guwahati-talk" style="flex: 1 1 300px; max-width: 400px;">
+            <a href="assets/gallery/lk Bioeconomy2.jpg" target="_blank" rel="noopener">
+              <img src="assets/gallery/lk Bioeconomy2.jpg" alt="Prof. Biju Soman delivering talk on Bioeconomy and HTA 2026">
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 9: Critical Appraisal & Systematic Review Workshop -->
+      <section class="gallery-block">
+        <h2>9: Workshop on Critical Appraisal of Literature, Systematic Review and Meta-Analysis</h2>
+        <div class="photo-center-single">
+          <div class="photo-card" id="photo-workshop-critical-appraisal" style="max-width: 420px; width: 100%;">
+            <a href="assets/gallery/unnamed-2.png" target="_blank" rel="noopener">
+              <img src="assets/gallery/unnamed-2.png" alt="Session at Critical Appraisal and Systematic Review Workshop">
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 10: Value and Use of HTA Workshop -->
+      <section class="gallery-block">
+        <h2>10: Workshop on Value and Use of HTA In Health Policy-Making for Kerala</h2>
+        <div class="photo-center-single">
+          <div class="photo-card" id="photo-workshop-policy-making" style="max-width: 420px; width: 100%;">
+            <a href="assets/gallery/unnamed.png" target="_blank" rel="noopener">
+              <img src="assets/gallery/unnamed.png" alt="Session at Value and Use of HTA Workshop">
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 11: Decision-Making Workshop for Program Managers -->
+      <section class="gallery-block">
+        <h2>11: Workshop on &quot;HTA for Effective Decision-Making: Equipping Kerala's Program Managers&quot;</h2>
+        <div class="photo-center-single">
+          <div class="photo-card" id="photo-workshop-decision-making-1" style="max-width: 420px; width: 100%;">
+            <a href="assets/gallery/unnamed-2.jpg" target="_blank" rel="noopener">
+              <img src="assets/gallery/unnamed-2.jpg" alt="Hands-on session at HTA for Effective Decision-Making Workshop">
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="js/site.js"></script>
+</body>
+</html>
