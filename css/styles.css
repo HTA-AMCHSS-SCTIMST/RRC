@@ -533,8 +533,26 @@ tr:nth-child(even) td { background: #f7fafc; }
   .stats { grid-template-columns: repeat(3, 1fr); }
   .split, .grid-3, .grid-4, .steps, .foot-grid { grid-template-columns: 1fr; }
   .grid-2 { grid-template-columns: 1fr; }
+  .brand-inner {
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .brand-left {
+    flex: 1;
+    min-width: 0;
+  }
   .brand-text h1 { font-size: 16px; }
-  .badge { display: none; }
+  .brand-left img.emblem {
+    width: 52px;
+    height: 52px;
+    flex-shrink: 0;
+  }
+  .badge {
+    display: block;
+    width: 52px;
+    height: 52px;
+    flex-shrink: 0;
+  }
   .nav-toggle { display: block; }
   .nav-inner { flex-wrap: wrap; }
   .nav ul.menu {
