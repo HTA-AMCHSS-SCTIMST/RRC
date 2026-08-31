@@ -109,8 +109,8 @@ a:hover { color: var(--maroon); }
   gap: 16px;
 }
 .brand-left img.emblem {
-  width: 92px;
-  height: 92px;
+  width: 130px;
+  height: 130px;
   object-fit: contain;
 }
 .brand-text h1 {
@@ -130,7 +130,7 @@ a:hover { color: var(--maroon); }
   color: #444;
   margin-bottom: 2px;
 }
-.badge { width: 86px; height: 86px; }
+.badge { width: 130px; height: 130px; }
 
 /* Nav */
 .nav {
@@ -299,7 +299,7 @@ a:hover { color: var(--maroon); }
 
 .stats {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 16px;
 }
 .stat {
@@ -496,7 +496,15 @@ tr:nth-child(even) td { background: #f7fafc; }
   font-weight: 700;
   text-align: center;
   font-size: 13px;
-  padding: 8px;
+  padding: 0;
+  overflow: hidden;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center top;
 }
 
 /* Footer */
@@ -530,7 +538,7 @@ tr:nth-child(even) td { background: #f7fafc; }
 }
 
 @media (max-width: 980px) {
-  .stats { grid-template-columns: repeat(3, 1fr); }
+  .stats { grid-template-columns: repeat(5, 1fr); }
   .split, .grid-3, .grid-4, .steps, .foot-grid { grid-template-columns: 1fr; }
   .grid-2 { grid-template-columns: 1fr; }
   .brand-inner {
@@ -543,14 +551,14 @@ tr:nth-child(even) td { background: #f7fafc; }
   }
   .brand-text h1 { font-size: 16px; }
   .brand-left img.emblem {
-    width: 52px;
-    height: 52px;
+    width: 68px;
+    height: 68px;
     flex-shrink: 0;
   }
   .badge {
     display: block;
-    width: 52px;
-    height: 52px;
+    width: 68px;
+    height: 68px;
     flex-shrink: 0;
   }
   .nav-toggle { display: block; }
