@@ -66,7 +66,7 @@
         <li><a data-nav="resources" href="resources.html">Resources</a></li>
         <li><a data-nav="gallery" href="gallery.html">Gallery</a></li>
         <li><a data-nav="contact" href="contact.html">Contact Us</a></li>
-        <li><a href="https://htain.dhr.gov.in/" target="_blank" rel="noopener">Topic Submission Portal</a></li>
+        <li><a href="https://htain-mis.icmr.org.in/client/login" target="_blank" rel="noopener">Topic Submission Portal</a></li>
       </ul>
     </div>
   </nav>`;
@@ -79,7 +79,7 @@
         <p>Sree Chitra Tirunal Institute for Medical Sciences &amp; Technology<br>
         Medical College P.O., Thiruvananthapuram – 695 011, Kerala, India</p>
         <p>Email: <a href="mailto:hta.sctimst@gmail.com">hta.sctimst@gmail.com</a><br>
-        Phone: 0471 252 4140 / 4230</p>
+        Phone: 0471 252 4253</p>
       </div>
       <div>
         <h4>Useful Links</h4>
