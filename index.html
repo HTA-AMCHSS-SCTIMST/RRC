@@ -1,42 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="google-site-verification" content="8MKbScP9BqXM070lCIE2GLURAy0OIExDrDuXDFLzPxU" />
+  <!-- 1. Core Browser Standards -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
 
-  <!-- Primary Keyword-Rich Title -->
+  <!-- 2. Search Engine Verification -->
+  <meta name="google-site-verification" content="8MKbScP9BqXM070lCIE2GLURAy0OIExDrDuXDFLzPxU" />
+  <meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE" /> <!-- Replace or remove if not using Bing Webmaster Tools -->
+
+  <!-- 3. Primary SEO Tags -->
   <title>RRC HTA | AMCHSS - SCTIMST Trivandrum | Health Technology Assessment</title>
-
-  <!-- Meta Description covering all target keyword permutations -->
   <meta name="description" content="Official portal of the Regional Resource Centre (RRC) for Health Technology Assessment (HTA) at AMCHSS, SCTIMST Thiruvananthapuram (HTA AMCHSS-SCTIMST).">
-  <!-- Canonical URL to prevent split ranking signals -->
   <link rel="canonical" href="https://hta-amchss-sctimst.github.io/RRC/">
 
-  <!-- Open Graph / Social Media Preview Tags -->
+  <!-- 4. Favicons & Cross-Browser Icons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+
+  <!-- 5. Open Graph (Facebook, WhatsApp, LinkedIn) -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="RRC HTA | AMCHSS - SCTIMST Trivandrum">
   <meta property="og:description" content="Regional Resource Centre for Health Technology Assessment (HTA) at Achutha Menon Centre for Health Science Studies (AMCHSS), SCTIMST.">
   <meta property="og:url" content="https://hta-amchss-sctimst.github.io/RRC/">
   <meta property="og:site_name" content="HTA AMCHSS-SCTIMST">
+  <meta property="og:image" content="https://hta-amchss-sctimst.github.io/RRC/assets/gallery/PHOTO-2026-08-31-09-40-06.jpg"> 
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
 
-  <!-- Structured Data: Google Organization & Medical Web Page Schema -->
+  <!-- 6. Twitter / X Card Data -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="RRC HTA | AMCHSS - SCTIMST Trivandrum">
+  <meta name="twitter:description" content="Official portal of the Regional Resource Centre for Health Technology Assessment at AMCHSS.">
+  <meta name="twitter:image" content="https://hta-amchss-sctimst.github.io/RRC/assets/gallery/PHOTO-2026-08-31-09-40-06.jpg">
+
+  <!-- 7. JSON-LD Structured Data Schema -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "GovernmentOrganization",
-    "name": "RRC HTA AMCHSS-SCTIMST",
-    "alternateName": ["RRC HTA", "HTA AMCHSS", "HTA AMCHSS-SCTIMST", "AMCHSS HTA"],
-    "url": "https://hta-amchss-sctimst.github.io/RRC/",
-    "description": "Regional Resource Centre for Health Technology Assessment at Achutha Menon Centre for Health Science Studies, SCTIMST.",
-    "parentOrganization": {
-      "@type": "EducationalOrganization",
-      "name": "Achutha Menon Centre for Health Science Studies (AMCHSS), SCTIMST",
-      "url": "https://sctimst.ac.in"
+    {
+      "@context": "https://schema.org",
+      "@type": ["MedicalOrganization", "GovernmentOrganization", "ResearchOrganization"],
+      "name": "Regional Resource Centre for Health Technology Assessment (HTA)",
+      "alternateName": ["RRC HTA AMCHSS-SCTIMST", "RRC HTA", "HTA AMCHSS"],
+      "url": "https://hta-amchss-sctimst.github.io/RRC/",
+      "description": "Regional Resource Centre for Health Technology Assessment (HTA) at the Achutha Menon Centre for Health Science Studies.",
+      "parentOrganization": {
+        "@type": "EducationalOrganization",
+        "name": "Achutha Menon Centre for Health Science Studies (AMCHSS)",
+        "url": "https://sctimst.ac.in",
+        "parentOrganization": {
+          "@type": ["MedicalOrganization", "GovernmentOrganization"],
+          "name": "Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST)",
+          "location": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Thiruvananthapuram",
+              "addressRegion": "Kerala",
+              "addressCountry": "IN"
+            }
+          }
+        }
+      },
+      "memberOf": {
+        "@type": "GovernmentOrganization",
+        "name": "Health Technology Assessment in India (HTAIn)",
+        "url": "https://htain.dhr.gov.in/",
+        "parentOrganization": {
+          "@type": "GovernmentOrganization",
+          "name": "Department of Health Research (DHR), Ministry of Health & Family Welfare"
+        }
+      }
     }
-  }
   </script>
 
+  <!-- CSS Link -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body data-page="home">
@@ -66,7 +106,7 @@
           <p>RRC-HTA · AMCHSS · SCTIMST, Trivandrum</p>
         </div>
       </article>
-     
+      
       <button class="hero-btn prev" type="button" aria-label="Previous">‹</button>
       <button class="hero-btn next" type="button" aria-label="Next">›</button>
       <div class="dots"></div>
