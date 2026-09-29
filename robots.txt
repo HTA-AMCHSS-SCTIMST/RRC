@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hta-amchss-sctimst.github.io/RRC/sitemap.xml
