@@ -298,17 +298,21 @@ a:hover { color: var(--maroon); }
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: var(--navy);
-  color: #fff;
-  font-size: 13px;
+  background: none;
+  color: var(--navy);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 13.5px;
   font-weight: 700;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
-  padding: 6px 12px;
-  border-radius: 4px;
+  padding: 0 14px 0 0;
+  border-right: 2px solid var(--line);
   white-space: nowrap;
   flex-shrink: 0;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: none;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
 }
 .announcement-icon {
   font-size: 14px;
