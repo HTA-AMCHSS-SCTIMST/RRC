@@ -178,4 +178,40 @@
       window.location.href = `mailto:hta.sctimst@gmail.com?subject=${encodeURIComponent("HTA Resource Centre enquiry")}&body=${body}`;
     });
   }
+
+  // Live Event Countdown for November 10, 2026, 09:00:00 IST (+05:30)
+  const targetDate = new Date("2026-11-10T09:00:00+05:30").getTime();
+  const clocks = document.querySelectorAll(".countdown-clock");
+
+  if (clocks.length) {
+    function updateCountdown() {
+      const now = Date.now();
+      const diff = targetDate - now;
+
+      clocks.forEach((clock) => {
+        if (diff <= 0) {
+          clock.innerHTML = "<b style='color:var(--gold);font-size:14px;'>Event is Live Today!</b>";
+          return;
+        }
+
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        const secs = Math.floor((diff % (1000 * 60)) / 1000);
+
+        const dEl = clock.querySelector(".cd-days");
+        const hEl = clock.querySelector(".cd-hours");
+        const mEl = clock.querySelector(".cd-mins");
+        const sEl = clock.querySelector(".cd-secs");
+
+        if (dEl) dEl.textContent = String(days).padStart(2, "0");
+        if (hEl) hEl.textContent = String(hours).padStart(2, "0");
+        if (mEl) mEl.textContent = String(mins).padStart(2, "0");
+        if (sEl) sEl.textContent = String(secs).padStart(2, "0");
+      });
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+  }
 })();
