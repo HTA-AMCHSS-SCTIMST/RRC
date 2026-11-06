@@ -63,7 +63,7 @@ a:hover { color: var(--maroon); }
   color: #333;
   font-weight: 600;
 }
-.goi img { width: 36px; height: 24px; }
+.goi img { display: none; }
 .util-actions {
   display: flex;
   align-items: center;
