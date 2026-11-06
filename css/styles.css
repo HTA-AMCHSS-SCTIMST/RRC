@@ -68,6 +68,7 @@ a:hover { color: var(--maroon); }
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-left: auto;
 }
 .util-actions a, .util-actions button {
   background: none;
