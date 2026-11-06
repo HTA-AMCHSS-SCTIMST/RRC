@@ -5,7 +5,6 @@
     <div class="util-inner">
       <div class="goi">
         <img src="assets/flag.svg" alt="">
-        <span>Government of India</span>
       </div>
       <div class="util-actions">
         <div class="font-btns" aria-label="Text size">
