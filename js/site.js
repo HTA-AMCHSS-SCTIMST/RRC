@@ -3,9 +3,6 @@
   <a class="skip" href="#main">Skip to content</a>
   <div class="util-bar">
     <div class="util-inner">
-      <div class="goi">
-        <img src="assets/flag.svg" alt="">
-      </div>
       <div class="util-actions">
         <div class="font-btns" aria-label="Text size">
           <button type="button" data-fs="down" title="Decrease text">A-</button>
